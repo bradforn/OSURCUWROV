@@ -1,7 +1,7 @@
 "use strict";
 
 /**
-* Run this on a raspberry pi 
+* Run this on a raspberry pi
 * then browse (using google chrome/firefox) to http://[pi ip]:1868/
 */
 
@@ -16,6 +16,8 @@ const app  = express();
 
 const WebStreamerServer = require('./lib/raspivid');
 const server  = http.createServer(app);
+
+var ws = require('./ws')
 /*REQUIRED*/
 
 
