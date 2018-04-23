@@ -19,24 +19,7 @@
     <script type="text/javascript" src="http-live-player.js"></script>
     <script type="text/javascript">
 
-<<<<<<< HEAD
 
-
-
-=======
-   <!-- ----------------------------Sensor Data---------------------------- -->
-    var ws = new WebSocket('ws://localhost:40510');
-
-    ws.onopen = function () {
-        console.log('websocket is connected ...')
-        ws.send('connected')
-    }
-
-    ws.onmessage = function (ev) {
-        console.log(ev);
-    }
-   <!-- ----------------------------Sensor Data---------------------------- -->
->>>>>>> db83416d9dcd406e6e1b611187d46ddf49a5388a
 
 var canvas = document.createElement("canvas");
 	document.body.appendChild(canvas);
