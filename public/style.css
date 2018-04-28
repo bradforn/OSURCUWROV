@@ -1,0 +1,116 @@
+body {
+    background-color: #1c1c1c;
+}
+
+.main-HUB {
+  position: fixed;
+}
+
+.horizon-Line {
+  position: fixed;
+  padding-left: 300px;
+  padding-top: 310px;
+  z-index: 2;
+
+
+}
+.center{
+
+}
+.HUB-top{
+
+    position: fixed;
+}
+.HUB-top-left{
+  position: fixed;
+  margin-top: 70px;
+  margin-left: 16.5vw;
+  width: 18vw;
+  height: 30px;
+}
+.HUB-top-middle{
+  position: fixed;
+  margin-top: 31px;
+  margin-left: 41.25vw;
+  width: 16.5vw;
+  height: 30px;
+}
+.HUB-top-right{
+  position: fixed;
+  margin-top: 70px;
+  margin-left: 64vw;
+  width: 18vw;
+  height: 30px;
+}
+
+.HUB-left{
+  position: fixed;
+  margin-top: 153px;
+  margin-left: 3vw;
+  width: 12vw;
+  height: 173px;
+  display:inline-block;
+
+    border: 3px solid white;
+}
+
+.HUB-middle{
+  position: fixed;
+  margin-top: 153px;
+  margin-left: 17vw;
+  width: 820px;
+  height: 620px;
+  display:inline-block;
+}
+
+.HUB-right{
+  position: fixed;
+  margin-top: 153px;
+  margin-left: 83vw;
+  width: 13vw;
+  height: 50px;
+  display:inline-block;
+
+}
+
+.HUB-bottom{
+
+}
+.HUB-bottom-left{
+  position: fixed;
+  margin-top: 800px;
+  margin-left: 11vw;
+  width: 20vw;
+  height: 30px;
+}
+.HUB-bottom-middle{
+  position: fixed;
+  margin-top: 830px;
+  margin-left: 35vw;
+  width: 29vw;
+  height: 40px;
+}
+.HUB-bottom-right{
+  position: fixed;
+  margin-top: 800px;
+  margin-left: 68vw;
+  width: 20vw;
+  height: 30px;
+}
+.start{
+  display: inline;
+}
+.play-button{
+  position: fixed;
+  width: 820;
+  height: 620;
+  z-index: 3;
+}
+.console{
+    overflow: hidden;
+    height: 90%;
+}
+
+.temp{
+  background-color: white;
+}
