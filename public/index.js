@@ -1,8 +1,10 @@
 
 
 
-var canvas = document.createElement("canvas");
-	document.body.appendChild(canvas);
+var play-button = document.getElementById("play-button");
+var MyCanvas = document.createElement("canvas");
+MyCanvas.innerHTML = "Replaced Canvas!";
+MyCanvas.parentNode.replaceChild(MyCanvas, play-button);
 
 // Create h264 player
 var uri = "ws://" + document.location.host;
@@ -20,6 +22,11 @@ var updateInterval = 100; //ms
 var hasGP = false;
 var repGP;
 
+
+
+document.getElementById("console-log").onclick = function consoleLogOne(){
+  document.getElementById("logs").src = "/Pictures/Redsquare.png";
+}
 const sticks = new Array(4); // L/LR, L/UD, R/LR, R/UD
 
 
@@ -27,6 +34,8 @@ function canGame() {
 console.log("GGGGGGame");
   return "getGamepads" in navigator;
 }
+
+
 
 function reportOnGamepad() {
   var gp = navigator.getGamepads()[0];
