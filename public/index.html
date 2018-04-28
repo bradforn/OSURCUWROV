@@ -5,21 +5,74 @@
 
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 
-    <title>Scream Cam</title>
+    <title>OSUUWROV</title>
   </head>
 <body>
+    <script type="text/javascript" src="http-live-player.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  		<link rel="stylesheet" href="style.css">
 
-    <button type="button" onclick="wsavc.playStream()">Start Video</button>
-    <button type="button" onclick="wsavc.pizza()">Stop Video</button>
-    <button type="button" onclick="wsavc.disconnect()">Disconnect</button>
-    <br/>
+      <img class="main-HUB test" src="/Pictures/HUB-Aqua.png" alt="HUB-Aqua" height ="900px" width="99%">
+
+
+            <div class="HUB-top-middle test">
+              <a class ="temp"> t middle </a>
+            </div>
+            <div class="HUB-top-left test">
+              <a class ="temp">t left </a>
+            </div>
+            <div class="HUB-top-right test">
+              <a class ="temp"> t right </a>
+            </div>
+
+            <div class="HUB-left">
+              <a style="background-color:lightgrey; color:red; text-align: center">Console:</a>
+              <div class="console">
+                <img id="logs" class="logs" src="/Pictures/blank.png" alt="Empty Console">
+              </div>
+              <button id="console-log" class="dev console logs test button" type="button" onclick="consoleLogOne()">Placeholder for console log one.</button>
+            </div>
+          <div class="HUB-middle test">
+
+            <img id ="play-button" class="play-button test" src="/Pictures/Start.png" alt="start" onclick="wsavc.playStream()">
+            <img class="horizon-Line test" src="/Pictures/Horizon-Line.png" alt="HUB-Horizon-Line">
+
+
+          </div>
+
+            <div class="HUB-right test">
+            <button class="start" type="button" onclick="wsavc.pizza()">Stop Video</button>
+            <button class="start" type="button" onclick="wsavc.disconnect()" class="HUB-middle">Disconnect</button>
+            </div>
+            <div class="HUB-bottom-left test">
+              <a class ="temp"> l left </a>
+            </div>
+            <div class="HUB-bottom-middle test">
+              <a class ="temp"> l middle </a>
+            </div>
+            <div class="HUB-bottom-right test">
+              <a class ="temp"> l right </a>
+            </div>
+
+
+<!--
+    <button type="button" onclick="wsavc.playStream()" class="HUB-middle">Start Video</button>
+    <!--
+    -->
+
 
   <!-- provide WSAvcPlayer -->
 
-    <script type="text/javascript" src="http-live-player.js"></script>
-    <script type="text/javascript" src="index.js">
 
-</script>
 
+
+<!--//////////////////////////////////////////////////////////////////////////////////-->
+<p id="output"></p>
+
+
+
+
+
+<!--//////////////////////////////////////////////////////////////////////////////////-->
   </body>
 </html>
